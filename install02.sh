@@ -1,5 +1,5 @@
 # Download PHP
-wget http://nl1.php.net/get/php-5.4.31.tar.gz/from/this/mirror -O /php/php-5.4.31.tar.gz
+wget http://nl1.php.net/distributions/php-5.4.31.tar.gz -O /php/php-5.4.31.tar.gz
 
 # Extract PHP
 tar xzvf /php/php-5.4.31.tar.gz

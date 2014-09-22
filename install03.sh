@@ -1,0 +1,63 @@
+# Move to unpacked folder
+cd /php/php-5.4.31
+
+# Configure PHP build script
+./configure \
+    --with-libdir=lib64 \
+    --cache-file=./config.cache \
+    --prefix=/php/php-5.4.31 \
+    --with-config-file-path=/php/php-5.4.31/etc \
+    --disable-debug \
+    --with-pic \
+    --disable-rpath \
+    --with-bz2 \
+    --with-curl \
+    --with-freetype-dir=/php/php-5.4.31 \
+    --with-png-dir=/php/php-5.4.31 \
+    --enable-gd-native-ttf \
+    --without-gdbm \
+    --with-gettext \
+    --with-gmp \
+    --with-iconv \
+    --with-jpeg-dir=/php/php-5.4.31 \
+    --with-openssl \
+    --with-pspell \
+    --with-pcre-regex \
+    --with-zlib \
+    --enable-exif \
+    --enable-ftp \
+    --enable-sockets \
+    --enable-sysvsem \
+    --enable-sysvshm \
+    --enable-sysvmsg \
+    --enable-wddx \
+    --with-kerberos \
+    --with-unixODBC=/usr \
+    --enable-shmop \
+    --enable-calendar \
+    --with-libxml-dir=/php/php-5.4.31 \
+    --enable-pcntl \
+    --with-imap \
+    --with-imap-ssl \
+    --enable-mbstring \
+    --enable-mbregex \
+    --with-gd \
+    --enable-bcmath \
+    --with-xmlrpc \
+    --with-ldap \
+    --with-ldap-sasl \
+    --with-mysql=/usr \
+    --with-mysqli \
+    --with-snmp \
+    --enable-soap \
+    --with-xsl \
+    --enable-xmlreader \
+    --enable-xmlwriter \
+    --enable-pdo \
+    --with-pdo-mysql \
+    --with-pear=/php/php-5.4.31/pear \
+    --with-mcrypt \
+    --without-pdo-sqlite \
+    --with-config-file-scan-dir=/php/php-5.4.31/php.d \
+    --without-sqlite3 \
+    --enable-intl
